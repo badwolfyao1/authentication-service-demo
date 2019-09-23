@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  authentication:
+    build:
+      context: .
+    ports:
+      - target: 80
+      - target: 443
